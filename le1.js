@@ -62,4 +62,22 @@ console.log("Division:", 10 / 5);
 
 console.log("Remainder:", 10 % 3);
 
+// conditional statements
+
+let marks = 85;
+
+if (marks >= 90) {
+    console.log("A+");
+}
+else if (marks >= 80) {
+    console.log("A");
+}
+else if (marks >= 70) {
+    console.log("B");
+}
+else {
+    console.log("Fail");
+}
+
+
 
